@@ -50,6 +50,15 @@ Ensure all GND and 5V connections for the LCD and other components are routed th
 
 ## Steps to Set Up and Run the Code
 
+### Make sure you have the following dependencies:
+```bash
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-smbus python-pip
+```
+### For a Raspberry Pi make sure you have the RPi.GPIO library by executing:
+```bash
+sudo pip install RPi.GPIO
+```
 ### Step 1: Clone the Library Repository
 Clone the necessary library for controlling the 16x2 LCD from GitHub:
 
